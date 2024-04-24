@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 style="background-color: aquamarine; display: flex; justify-content: center;">TODO Application</h1>
+  <div class="container">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Add your Task here" id="username"
+        aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="addUserBtn">Add</button>
+
+    </div>
+    <div class="display">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Task</th>
+            <th scope="col">Actions</th>
+
+          </tr>
+        </thead>
+        <tbody id="display">
+          <!-- <tr>
+            <th scope="row">1</th>
+            <td>Reading</td>
+
+            <td><i class="fa fa-trash-o"> <i class='fas fa-edit'></i></td>
+          </tr> -->
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#addbtn {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 10 px;
+  margin-bottom: 30px;
+  margin-left: 750px;
+}
+#all-card {
+  display: flex;
+  justify-content: space-around;
+}
